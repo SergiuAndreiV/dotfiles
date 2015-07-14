@@ -1,3 +1,4 @@
+" Use Vim settings, rather than Vi settings (much better!).
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -128,7 +129,6 @@ set timeoutlen=1000 ttimeoutlen=3
 
 let mapleader = ","
 
-" reload 
 
 "quick save current file, from active window
 nnoremap <leader>s :w<cr>
@@ -155,9 +155,6 @@ map <leader>tj :tabprevious<cr>
 "======================================================================
 "======================================================================
 "======================================================================
-
-" Use Vim settings, rather than Vi settings (much better!).
-" This must be first, because it changes other options as a side effect.
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
